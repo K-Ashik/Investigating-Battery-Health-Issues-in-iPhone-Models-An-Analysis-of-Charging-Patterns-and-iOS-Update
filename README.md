@@ -1,6 +1,5 @@
-# Investigating-Battery-Health-Issues-in-iPhone-Models-An-Analysis-of-Charging-Patterns-and-iOS-Update
+## iPhone Battery Health Issues Analysis
 
-### iPhone Battery Health Analysis
 This project analyzes the iPhone battery health based on regional variants, iPhone models, and conditions. The data used in this analysis was obtained from a survey conducted on iPhone users, which includes information on the battery health percentage, charging patterns, iOS updates, and device conditions. The project aims to identify the factors that affect battery health and provide insights into how users can maintain better battery health.
 
 ### Data Cleaning
