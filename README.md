@@ -2,18 +2,19 @@
 ### Introduction
 The objective of this project is to analyze the battery health percentage of different iPhone models over different iOS updates and regions. The data used for this analysis was collected through an online survey, in which participants were asked to provide information about their iPhone models, regions, iOS versions, battery health, and battery issues. The purpose of this project is to provide insights and recommendations on how to maintain better battery health for iPhone users.
 
-Technologies Used
-Python 3
-Pandas
-Matplotlib
-Seaborn
-SciPy
-Data Analysis Process
+Technologies Used </br>
+Python 3 </br>
+Pandas </br>
+Matplotlib </br>
+Seaborn </br>
+SciPy </br>
+
+### Data Analysis Process
 The data analysis process involved the following steps:
 
-### Data Cleaning: The original dataset contained some incomplete and inconsistent data. Therefore, data cleaning was performed to remove missing values, duplicates, and inconsistent data.
+#### Data Cleaning: The original dataset contained some incomplete and inconsistent data. Therefore, data cleaning was performed to remove missing values, duplicates, and inconsistent data.
 
-### Data Exploration: Exploratory data analysis (EDA) was performed to gain insights into the data. The following visualizations were created:
+#### Data Exploration: Exploratory data analysis (EDA) was performed to gain insights into the data. The following visualizations were created:
 
 Distribution Counterplot of iPhone Models
 Distribution Counterplot of Battery Issues
