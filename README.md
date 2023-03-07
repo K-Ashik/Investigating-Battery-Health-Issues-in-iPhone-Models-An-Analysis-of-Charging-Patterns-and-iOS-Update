@@ -1,18 +1,43 @@
-## iPhone Battery Health Issues Analysis
+## iPhone Battery Health Analysis
+### Introduction
+The objective of this project is to analyze the battery health percentage of different iPhone models over different iOS updates and regions. The data used for this analysis was collected through an online survey, in which participants were asked to provide information about their iPhone models, regions, iOS versions, battery health, and battery issues. The purpose of this project is to provide insights and recommendations on how to maintain better battery health for iPhone users.
 
-This project analyzes the iPhone battery health based on regional variants, iPhone models, and conditions. The data used in this analysis was obtained from a survey conducted on iPhone users, which includes information on the battery health percentage, charging patterns, iOS updates, and device conditions. The project aims to identify the factors that affect battery health and provide insights into how users can maintain better battery health.
+Technologies Used
+Python 3
+Pandas
+Matplotlib
+Seaborn
+SciPy
+Data Analysis Process
+The data analysis process involved the following steps:
 
-### Data Cleaning
-The first step in the analysis was to clean and preprocess the data. The data cleaning process involved removing duplicates, handling missing values, and converting data types. The data was then transformed to make it more suitable for analysis.
+### Data Cleaning: The original dataset contained some incomplete and inconsistent data. Therefore, data cleaning was performed to remove missing values, duplicates, and inconsistent data.
 
-### Data Visualization
-The second step was to visualize the data to gain insights into the factors that affect battery health. Various data visualization techniques such as scatter plots, bar charts, and heatmaps were used to analyze the data. The visualizations helped to identify trends and patterns in the data and provide insights into the factors that affect battery health.
+### Data Exploration: Exploratory data analysis (EDA) was performed to gain insights into the data. The following visualizations were created:
 
-### Statistical Analysis
-The third step involved conducting statistical analysis to test the significance of the factors identified in the data visualization. The F-test was used to determine if there is a significant difference in battery health between different iPhone models and regional variants. The results of the statistical analysis provided further insights into the factors that affect battery health.
+Distribution Counterplot of iPhone Models
+Distribution Counterplot of Battery Issues
+Stacked Bar Chart of Battery Issues over Regional Variant iPhone Models
+Heatmap Comparison of Battery Health Percentage Current, Percentage Level of Device on Charging, and Percentage Level of Device Unplug from Charge
+Stacked Bar Chart of Distribution of Battery Issues over Regional Variant, Model, and Current iOS based on the Condition of the Devices
+Statistical Analysis: One-way ANOVA (Analysis of Variance) test was performed to determine whether there were significant differences in battery health percentage among different iPhone models over different iOS updates.
 
+### Findings
+Based on the data analysis, the following findings were obtained:
+
+iPhone battery health percentage is degrading over the previous model of iPhones over any iOS updates.
+Most of the devices which are facing significant battery health down are from either USA or Japan variant.
+Most of the devices that have battery issues are either previous versions of models or used conditioned phones.
+Only 20-25% of users from our survey had battery issues.
+Those who maintain the charging pattern range in between 20-30% & 80-90% or 90-100% tend to have sufficient battery health percentages.
+The previous version of devices and the condition of the devices have a greater impact on battery degradation.
 ### Conclusion
-The analysis showed that the battery health of iPhones tends to degrade over time, particularly for previous versions of iPhone models. The analysis also showed that factors such as charging patterns, device conditions, and iOS updates can significantly affect battery health. Based on these findings, it is recommended that iPhone users follow specific charging patterns to maintain better battery health.
+Based on the findings, it is recommended that iPhone users should follow certain best practices to maintain better battery health. These practices include:
+
+Maintaining the charging pattern range between 20-30% & 80-90% or 90-100%.
+Upgrading to the latest iPhone models to avoid significant battery health degradation.
+Taking good care of the iPhone's condition to avoid battery issues.
+Overall, this analysis provides valuable insights for iPhone users on how to maintain better battery health for their devices.
 
 
 
